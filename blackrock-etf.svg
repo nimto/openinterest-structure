@@ -1,0 +1,77 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="400" height="400" rx="20" ry="20" fill="#000000" />
+  
+  <!-- 그라데이션 배경 레이어 -->
+  <linearGradient id="blackrock-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+  </linearGradient>
+  <rect width="400" height="400" rx="20" ry="20" fill="url(#blackrock-gradient)" />
+  
+  <!-- 그리드 배경 -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#444444" stroke-width="0.5" />
+  </pattern>
+  <rect width="400" height="400" fill="url(#grid)" />
+  
+  <!-- 블랙락 로고 스타일 아이콘 -->
+  <g transform="translate(200, 120)">
+    <rect x="-50" y="-30" width="100" height="60" rx="5" ry="5" fill="#000000" stroke="#ffffff" stroke-width="2" />
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">BLK</text>
+  </g>
+  
+  <!-- ETF 포트폴리오 구조 -->
+  <g transform="translate(200, 210)">
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#ffffff" stroke-width="2" />
+    
+    <!-- 포트폴리오 분할 -->
+    <path d="M0,0 L50,35 A60,60 0 0,1 -30,52 Z" fill="#0077b6" />
+    <path d="M0,0 L-30,52 A60,60 0 0,1 -50,-35 Z" fill="#00b4d8" />
+    <path d="M0,0 L-50,-35 A60,60 0 0,1 50,-35 Z" fill="#90e0ef" />
+    <path d="M0,0 L50,-35 A60,60 0 0,1 50,35 Z" fill="#caf0f8" />
+    
+    <!-- 중앙 포인트 -->
+    <circle cx="0" cy="0" r="15" fill="#000000" stroke="#ffffff" stroke-width="1" />
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">ETF</text>
+  </g>
+  
+  <!-- 주식 차트 -->
+  <g transform="translate(30, 300)">
+    <!-- 차트 바탕 -->
+    <rect x="0" y="0" width="340" height="80" rx="5" ry="5" fill="#222222" />
+    
+    <!-- 주가 차트 -->
+    <polyline points="0,60 34,55 68,40 102,45 136,30 170,35 204,25 238,15 272,20 306,10 340,15" 
+              fill="none" stroke="#0077b6" stroke-width="3" />
+              
+    <!-- 이동평균선 -->
+    <polyline points="0,50 34,48 68,45 102,40 136,38 170,35 204,30 238,25 272,22 306,18 340,20" 
+              fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="3,2" />
+  </g>
+  
+  <!-- ETF 지표 -->
+  <g transform="translate(40, 80)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">SPY: $520.47</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">iShares: $372.12</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">AUM: $9.09T</text>
+  </g>
+  
+  <!-- 투자 섹터 아이콘 -->
+  <g transform="translate(290, 85)">
+    <rect x="0" y="0" width="20" height="10" fill="#0077b6" />
+    <text x="25" y="9" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">테크</text>
+    
+    <rect x="0" y="15" width="20" height="10" fill="#00b4d8" />
+    <text x="25" y="24" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">금융</text>
+    
+    <rect x="0" y="30" width="20" height="10" fill="#90e0ef" />
+    <text x="25" y="39" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">헬스케어</text>
+    
+    <rect x="0" y="45" width="20" height="10" fill="#caf0f8" />
+    <text x="25" y="54" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">에너지</text>
+  </g>
+  
+  <!-- 제목 -->
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="22" fill="#ffffff" font-weight="bold" text-anchor="middle">블랙락 ETF</text>
+</svg>
