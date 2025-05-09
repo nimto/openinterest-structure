@@ -1,0 +1,104 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="900" height="600" rx="20" ry="20" fill="#f8f9fa" />
+  
+  <!-- 제목 영역 -->
+  <rect x="50" y="30" width="800" height="70" rx="10" ry="10" fill="#0b6e4f" />
+  <text x="450" y="75" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">OpenInterest 사업 구조도</text>
+  <image x="750" y="40" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDI1MCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjEyNSIgY3k9IjEyNSIgcj0iMTIwIiBmaWxsPSIjMkM5OUZGIi8+CjxwYXRoIGQ9Ik0xMjUgNTBDMTI1IDg5LjIxODcgMTU1Ljc4MSAxMjAgMTk1IDEyMEMxNTUuNzgxIDEyMCAxMjUgMTUwLjc4MSAxMjUgMTkwQzEyNSAxNTAuNzgxIDk0LjIxODcgMTIwIDU1IDEyMEM5NC4yMTg3IDEyMCAxMjUgODkuMjE4NyAxMjUgNTBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=" />
+  
+  <!-- 중앙 핵심 요소: "OI" Master Card -->
+  <rect x="250" y="140" width="400" height="80" rx="10" ry="10" fill="#1d3557" stroke="#ddd" stroke-width="2" />
+  <text x="450" y="190" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="white">"OI" Master Card</text>
+  
+  <!-- 4개의 주요 기능 -->
+  <g id="usdc">
+    <rect x="150" y="260" width="140" height="80" rx="15" ry="15" fill="#white" stroke="#1d3557" stroke-width="2" />
+    <text x="220" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1d3557">USDC</text>
+    <text x="220" y="315" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1d3557">추가 이자</text>
+  </g>
+  
+  <g id="atm">
+    <rect x="380" y="260" width="140" height="80" rx="15" ry="15" fill="white" stroke="#1d3557" stroke-width="2" />
+    <text x="450" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1d3557">ATM</text>
+    <text x="450" y="315" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1d3557">출금</text>
+  </g>
+  
+  <g id="payment">
+    <rect x="610" y="260" width="140" height="80" rx="15" ry="15" fill="white" stroke="#1d3557" stroke-width="2" />
+    <text x="680" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1d3557">결제</text>
+    <text x="680" y="315" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1d3557">솔루션</text>
+  </g>
+  
+  <!-- 레퍼럴 -->
+  <g id="referral">
+    <rect x="380" y="380" width="140" height="80" rx="15" ry="15" fill="white" stroke="#1d3557" stroke-width="2" />
+    <text x="450" y="425" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1d3557">레퍼럴</text>
+  </g>
+  
+  <!-- 예금자 -->
+  <g id="depositor">
+    <rect x="100" y="180" width="120" height="60" rx="10" ry="10" fill="#0b6e4f" stroke="#ddd" stroke-width="2" />
+    <text x="160" y="215" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">예금자</text>
+  </g>
+  
+  <!-- 은행 영역 -->
+  <rect x="100" y="480" width="700" height="80" rx="10" ry="10" fill="#1d3557" />
+  <text x="450" y="525" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">BANK</text>
+  
+  <!-- 은행 서비스들 -->
+  <g id="crypto">
+    <rect x="130" y="500" width="140" height="40" rx="5" ry="5" fill="#white" stroke="#ddd" stroke-width="2" />
+    <text x="200" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d3557">크립토 월렛</text>
+  </g>
+  
+  <g id="gold">
+    <rect x="290" y="500" width="140" height="40" rx="5" ry="5" fill="white" stroke="#ddd" stroke-width="2" />
+    <text x="360" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d3557">금 월렛</text>
+  </g>
+  
+  <g id="oil">
+    <rect x="460" y="500" width="140" height="40" rx="5" ry="5" fill="white" stroke="#ddd" stroke-width="2" />
+    <text x="530" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d3557">오일 월렛</text>
+  </g>
+  
+  <g id="etf">
+    <rect x="630" y="500" width="140" height="40" rx="5" ry="5" fill="white" stroke="#ddd" stroke-width="2" />
+    <text x="700" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1d3557">블랙락 ETF</text>
+  </g>
+  
+  <!-- 연결선들 -->
+  <!-- 중앙에서 각 기능으로 -->
+  <path d="M450 220 L220 260" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <path d="M450 220 L450 260" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <path d="M450 220 L680 260" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- ATM과 결제에서 레퍼럴로 -->
+  <path d="M450 340 L450 380" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <path d="M680 340 L450 380" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- 예금자에서 마스터카드로 -->
+  <path d="M220 180 L250 180" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- 예금자에서 USDC로 -->
+  <path d="M160 240 L220 260" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- 마스터카드에서 뱅크로 -->
+  <path d="M250 220 L100 480" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <path d="M650 220 L800 480" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  
+  <!-- 화살표 마커 정의 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 Z" fill="#666" />
+    </marker>
+  </defs>
+  
+  <!-- 설명 텍스트 -->
+  <text x="280" y="242" font-family="Arial, sans-serif" font-size="12" fill="#666" transform="rotate(-20, 280, 242)">미국채 기반 이자</text>
+  <text x="580" y="242" font-family="Arial, sans-serif" font-size="12" fill="#666" transform="rotate(20, 580, 242)">글로벌 결제</text>
+  <text x="240" y="420" font-family="Arial, sans-serif" font-size="12" fill="#666" transform="rotate(45, 240, 420)">수익 공유</text>
+  <text x="660" y="420" font-family="Arial, sans-serif" font-size="12" fill="#666" transform="rotate(-45, 660, 420)">사용자 추천</text>
+  <text x="120" y="420" font-family="Arial, sans-serif" font-size="12" fill="#666" transform="rotate(90, 120, 420)">이자 지급</text>
+  <text x="780" y="420" font-family="Arial, sans-serif" font-size="12" fill="#666" transform="rotate(270, 780, 420)">사용자 확장</text>
+</svg>
